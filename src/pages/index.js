@@ -26,7 +26,7 @@ const IndexPage = () => (
           <div className="hero-content">
             <h1>Passionate<br/> Web Developer</h1>
             <p>I am a web developer.. Will write more here.</p>
-            <a className="action-btn">Hire me</a>
+            <a className="action-btn" onClick = {()=>{window.open('mailto:anchit.thakur11@gmail.com');}}>Hire me</a>
           </div>
         </section>
       </div>
