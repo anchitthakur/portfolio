@@ -13,6 +13,8 @@ body {
 }
 
 .sidebar {
+    position: sticky;
+    top: 0;
     grid-area: sidebar;
     background: linear-gradient(to right,
     rgba(249, 107, 142, 1),
