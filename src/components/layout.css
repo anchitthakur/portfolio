@@ -1,31 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
 
 body {
-
+    background: url("../images/bg.svg") no-repeat;
+    background-size: cover;
     font-family: 'Nunito', sans-serif;
-    background: #eff1f7;
+    /*background: #eff1f7;*/
     margin: 0;
 }
 
 .content {
     grid-area: content;
-    background: url("../images/bg.svg");
+    background: transparent;
 }
 
 .sidebar {
-    position: sticky;
-    top: 0;
     grid-area: sidebar;
-    background: linear-gradient(to right,
-    rgba(249, 107, 142, 1),
-    rgba(218, 103, 230, 1),
-    rgba(130, 125, 253, 1));
+    background: transparent;
     justify-content: center;
 }
 
 .footer {
     grid-area: footer;
-    background: white;
 }
 
 .container {
@@ -83,13 +78,13 @@ nav li a:hover {
 .hero h1 {
     font-size: 2em;
     font-weight: 300;
-    color: #373d46;
+    color: #000000;
 }
 
 .hero p {
     font-weight: 300;
     line-height: 1.8em;
-    color: #98a0ad;
+    color: #111114;
 }
 
 .action-btn {
@@ -150,10 +145,7 @@ footer p {
     }
 
     .sidebar {
-        background: linear-gradient(
-                rgba(249, 107, 142, 1),
-                rgba(218, 103, 230, 1),
-                rgba(130, 125, 253, 1));
+        background: transparent;
         padding-top: 3em;
     }
 
