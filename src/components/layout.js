@@ -3,14 +3,14 @@ import Footer from "./Footer"
 import Sidebar from "./Sidebar"
 import "./layout.css"
 
-
-const Layout = ({ children }) => {
+const Layout = (props) => {
+  console.log(props)
   return (
     <div className="container">
-      <Sidebar/>
+      <Sidebar location={props.uri}/>
       <div className="content">
         <section className="main">
-          {children}
+          {props.children}
         </section>
       </div>
       <Footer/>
