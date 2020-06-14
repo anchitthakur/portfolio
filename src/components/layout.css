@@ -4,7 +4,6 @@ body {
     background: url("../images/bg.svg") no-repeat;
     background-size: cover;
     font-family: 'Nunito', sans-serif;
-    /*background: #eff1f7;*/
     margin: 0;
 }
 
@@ -24,13 +23,13 @@ body {
 }
 
 .container {
-    font-size: 1.5em;
-    width: 100%;
+    font-size: 1em;
+    width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-areas: "sidebar" "content" "footer";
     grid-template-columns: 1fr;
-    grid-template-rows: 130px 800px 250px;
+    grid-template-rows: 130px auto 250px;
 }
 
 .content,
@@ -60,8 +59,20 @@ nav li a {
     transition: 0.3s;
 }
 
+.active {
+    opacity: 1;
+}
+
 nav li a:hover {
     opacity: 1;
+}
+
+.main {
+    overflow-y: hidden;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    text-align: center;
 }
 
 .hero {
@@ -72,7 +83,6 @@ nav li a:hover {
 
 .hero img {
     width: 200px;
-    border-radius: 50%;
 }
 
 .hero h1 {
@@ -133,6 +143,7 @@ footer p {
 
 @media (min-width: 1040px) {
     .container {
+        font-size: 1.5em;
         grid-template-areas: "sidebar content" "sidebar footer";
         grid-template-columns: 300px 1fr;
         grid-template-rows: 1fr auto;
