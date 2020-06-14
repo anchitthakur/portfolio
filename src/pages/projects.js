@@ -22,7 +22,7 @@ export default () => {
         <div className="card">
           <a target="_blank" href='https://moowe.herokuapp.com'>Moowe</a><br/>
           This website is a catalogue of Movies and TV shows made with a unified search approach.
-          <div className="flex-container">
+          <div className="flex-container" style={{marginTop:'10px'}}>
             <NextJs className='svg'/>
             <BootstrapSvg className='svg'/>
             <ExpressSvg className='svg'/>
