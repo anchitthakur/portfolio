@@ -23,11 +23,11 @@ export default () => {
           <a target="_blank" href='https://moowe.herokuapp.com'>Moowe</a><br/>
           This website is a catalogue of Movies and TV shows made with a unified search approach.
           <div className="flex-container">
-            <NextJs/>
-            <BootstrapSvg/>
-            <ExpressSvg/>
-            <NodeSvg/>
-            <MongoSvg/>
+            <NextJs className='svg'/>
+            <BootstrapSvg className='svg'/>
+            <ExpressSvg className='svg'/>
+            <NodeSvg className='svg'/>
+            <MongoSvg className='svg'/>
           </div>
         </div>
         <div className="card">
@@ -36,8 +36,8 @@ export default () => {
           team at IndiaMART.
 
           <div className="flex-container" style={{marginTop:'10px'}}>
-            <NextJs/>
-            <BootstrapSvg/>
+            <NextJs className='svg'/>
+            <BootstrapSvg className='svg'/>
           </div>
         </div>
         <div className="card">
@@ -46,8 +46,8 @@ export default () => {
           tells you about upcoming and past holidays and whether it's a holiday today.
 
           <div className="flex-container" style={{marginTop:'10px'}}>
-            <ReactSvg/>
-            <BootstrapSvg/>
+            <ReactSvg className='svg'/>
+            <BootstrapSvg className='svg'/>
           </div>
         </div>
       </div>

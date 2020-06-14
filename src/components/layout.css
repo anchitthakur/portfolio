@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-    font-size: 1em;
+    font-size: 1.1em;
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -143,7 +143,7 @@ footer p {
 
 @media (min-width: 1040px) {
     .container {
-        font-size: 1.5em;
+        font-size: 1.8em;
         grid-template-areas: "sidebar content" "sidebar footer";
         grid-template-columns: 300px 1fr;
         grid-template-rows: 1fr auto;
